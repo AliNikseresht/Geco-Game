@@ -1,0 +1,775 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  font-family: "Odibee Sans", cursive;
+}
+
+body {
+  height: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+::-moz-selection {
+  background-color: #696969;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #696969;
+  color: #ffffff;
+}
+
+.headone {
+  background-image: url(../img/fourth_header_top_bg.jpg);
+  width: 100%;
+  height: 90px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.headone section ul:nth-of-type(2) {
+  height: 90px;
+}
+.headone section ul:nth-of-type(2) li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headone section ul:nth-of-type(2) li i {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px !important;
+  color: #e9a401;
+  background-color: #333442;
+  border: 1px solid #28282e;
+  cursor: pointer;
+}
+.headone section ul:nth-of-type(1) {
+  height: 90px;
+}
+.headone section ul:nth-of-type(1) li {
+  color: #a5a5a5;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headone section ul:nth-of-type(1) li:nth-of-type(2) {
+  background-color: #e9a401;
+  color: black;
+  font-size: 25px;
+  height: 45px;
+  width: 75px;
+  padding-top: 6px;
+  -webkit-clip-path: polygon(10% 0%, 94% 0%, 84% 100%, 0% 100%);
+          clip-path: polygon(10% 0%, 94% 0%, 84% 100%, 0% 100%);
+}
+.headone section ul li {
+  color: #ffffff;
+  height: 90px;
+}
+.headone div {
+  height: 85px;
+  background-color: #252634;
+  z-index: 5;
+  border-top: 1px solid #1e1e2a;
+}
+.headone div nav ul:nth-of-type(1) {
+  background-color: #e9a401;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  -webkit-clip-path: polygon(0% 0%, 79% 0%, 87% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 79% 0%, 87% 100%, 0% 100%);
+}
+.headone div nav ul:nth-of-type(1) li {
+  cursor: pointer;
+}
+.headone div nav ul:nth-of-type(2) li {
+  cursor: pointer;
+}
+.headone div nav ul:nth-of-type(2) li:nth-of-type(1), .headone div nav ul:nth-of-type(2) li:nth-of-type(2), .headone div nav ul:nth-of-type(2) li:nth-of-type(3), .headone div nav ul:nth-of-type(2) li:nth-of-type(4), .headone div nav ul:nth-of-type(2) li:nth-of-type(5), .headone div nav ul:nth-of-type(2) li:nth-of-type(6), .headone div nav ul:nth-of-type(2) li:nth-of-type(7) {
+  -webkit-clip-path: polygon(15% 0%, 94% 0%, 79% 100%, 0% 100%);
+          clip-path: polygon(15% 0%, 94% 0%, 79% 100%, 0% 100%);
+  transition: 0.4s;
+  padding: 9px !important;
+}
+.headone div nav ul:nth-of-type(2) li:nth-of-type(1):nth-of-type(1), .headone div nav ul:nth-of-type(2) li:nth-of-type(2):nth-of-type(1), .headone div nav ul:nth-of-type(2) li:nth-of-type(3):nth-of-type(1), .headone div nav ul:nth-of-type(2) li:nth-of-type(4):nth-of-type(1), .headone div nav ul:nth-of-type(2) li:nth-of-type(5):nth-of-type(1), .headone div nav ul:nth-of-type(2) li:nth-of-type(6):nth-of-type(1), .headone div nav ul:nth-of-type(2) li:nth-of-type(7):nth-of-type(1) {
+  background-color: #e9a401;
+  color: black;
+}
+.headone div nav ul:nth-of-type(2) li:nth-of-type(1):hover, .headone div nav ul:nth-of-type(2) li:nth-of-type(2):hover, .headone div nav ul:nth-of-type(2) li:nth-of-type(3):hover, .headone div nav ul:nth-of-type(2) li:nth-of-type(4):hover, .headone div nav ul:nth-of-type(2) li:nth-of-type(5):hover, .headone div nav ul:nth-of-type(2) li:nth-of-type(6):hover, .headone div nav ul:nth-of-type(2) li:nth-of-type(7):hover {
+  -webkit-clip-path: polygon(15% 0%, 94% 0%, 79% 100%, 0% 100%);
+          clip-path: polygon(15% 0%, 94% 0%, 79% 100%, 0% 100%);
+  background-color: #e9a401;
+  color: black;
+}
+.headone div nav ul:nth-of-type(2) li:nth-of-type(8) {
+  position: relative;
+}
+.headone div nav ul:nth-of-type(2) li:nth-of-type(8) span {
+  position: absolute;
+  background-color: #e9a401;
+  color: black;
+  top: -20%;
+  left: 50%;
+  border-radius: 50%;
+  width: 20px;
+  height: 21px;
+}
+.headone div nav ul:nth-of-type(2) li:nth-of-type(9) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 46px;
+  border-radius: 5px;
+  background: #252634;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2), inset 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+  width: 50px;
+  height: 50px;
+  color: #e9a401;
+}
+.headone .menumobile {
+  z-index: 99999999;
+}
+.headone .menumobile nav ul:nth-of-type(3) {
+  background-color: #252634;
+  z-index: 99999999;
+}
+.headone .menumobile nav ul:nth-of-type(3) li {
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #1e1e2a;
+  border-top: 1px solid rgba(165, 165, 165, 0.4156862745);
+}
+.headone .menumobile nav ul:nth-of-type(3) li:hover {
+  background-color: #333442;
+}
+.headone .menumobile nav ul:nth-of-type(2) li:nth-of-type(1) {
+  position: relative;
+}
+.headone .menumobile nav ul:nth-of-type(2) li:nth-of-type(1) i {
+  background-color: transparent;
+  color: #ffffff;
+}
+.headone .menumobile nav ul:nth-of-type(2) li:nth-of-type(1) span {
+  position: absolute;
+  background-color: #e9a401;
+  color: black;
+  top: 25%;
+  left: 50%;
+  border-radius: 50%;
+  width: 20px;
+  height: 21px;
+}
+.headone .menumobile nav ul:nth-of-type(2) li:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 46px;
+  border-radius: 5px;
+  background: #252634;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2), inset 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+  width: 45px;
+  height: 45px;
+  color: #e9a401;
+}
+.headone .menumobile nav ul:nth-of-type(2) li:nth-of-type(2) i {
+  background-color: transparent;
+}
+
+#toggle {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-evenly;
+  cursor: pointer;
+  overflow: hidden;
+}
+#toggle > span {
+  display: flex;
+  width: 80%;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+#toggle > span:nth-of-type(1) {
+  transform-origin: top left;
+}
+#toggle > span:nth-of-type(3) {
+  transform-origin: bottom left;
+}
+
+#mobile {
+  width: 100%;
+  transition: 0.7s;
+  overflow: hidden;
+}
+
+.mega section {
+  width: 350px;
+  height: 350px !important;
+  background-color: #333442;
+  cursor: text;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 55px;
+  right: 20px;
+  opacity: 0;
+  transition: 0.4s;
+  visibility: hidden;
+}
+.mega section div i {
+  cursor: pointer;
+}
+.mega section div img {
+  cursor: pointer;
+}
+.mega section div:nth-of-type(1) {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #a5a5a5;
+  height: 150px;
+}
+.mega section div:nth-of-type(1) h4 {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  font-size: 15px;
+  color: #a5a5a5;
+  cursor: text;
+}
+.mega section div:nth-of-type(1) h3 {
+  transition: 0.4s;
+  height: 20px;
+  cursor: pointer;
+}
+.mega section div:nth-of-type(1) h3:hover {
+  color: #e9a401;
+}
+.mega section div:nth-of-type(2) {
+  background-color: transparent;
+  border: none;
+  height: 100px;
+}
+.mega section div:nth-of-type(2) button:nth-of-type(1) {
+  background-color: #e9a401;
+  border: none;
+}
+.mega section div:nth-of-type(2) button:nth-of-type(2) {
+  background-color: #333442;
+  border: none;
+}
+.mega:hover section {
+  opacity: 1;
+  visibility: visible;
+}
+
+.headslider {
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.headslider .slide {
+  position: relative;
+}
+.headslider .slide div {
+  position: relative;
+}
+.headslider .slide div figure {
+  height: 100vh;
+}
+.headslider .slide div figure img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.headslider .slide div figure div {
+  height: 300px;
+  align-items: center;
+  position: absolute;
+  top: 60px;
+}
+.headslider .slide div figure div div {
+  padding-top: 50px !important;
+  color: #ffffff;
+}
+.headslider .slide div figure div div span,
+.headslider .slide div figure div div h6 {
+  color: #e9a401;
+}
+.headslider .slide div figure div div a {
+  width: 120px;
+  background-color: #e9a401;
+  -webkit-clip-path: polygon(10% 0%, 90% 0%, 79% 100%, 0% 100%);
+          clip-path: polygon(10% 0%, 90% 0%, 79% 100%, 0% 100%);
+}
+.headslider .slide section {
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+.headslider .slide section div {
+  padding-top: 50px !important;
+  color: #ffffff;
+}
+.headslider .slide section div span,
+.headslider .slide section div h6 {
+  color: #e9a401;
+}
+.headslider .slide section div a {
+  background-color: #e9a401;
+  -webkit-clip-path: polygon(10% 0%, 90% 0%, 79% 100%, 0% 100%);
+          clip-path: polygon(10% 0%, 90% 0%, 79% 100%, 0% 100%);
+}
+.headslider span {
+  cursor: pointer;
+}
+.headslider span :nth-of-type(1) {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.headslider span :nth-of-type(2) {
+  position: absolute;
+  top: 50%;
+  left: 3.5%;
+}
+
+.logo {
+  background-image: url("../img/s_brand_bg.jpg");
+  border-bottom: 1px solid #8a8b8c;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.logo .swiper-slide img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.animeslider {
+  background-image: url("../img/home_four_area_bg.png");
+  padding-top: 10% !important;
+  background-repeat: no-repeat;
+}
+.animeslider h6 {
+  color: #a5a5a5;
+}
+.animeslider h2 {
+  color: #ffffff;
+}
+.animeslider h2 span {
+  color: #e9a401;
+}
+.animeslider figure {
+  position: relative;
+  box-shadow: 0px 5px 12.09px 0.91px rgba(0, 0, 0, 0.35);
+}
+.animeslider figure figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(23, 13, 28, 0.9294117647);
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+.animeslider figure figcaption h3 span,
+.animeslider figure figcaption h6 span {
+  color: #e9a401;
+}
+.animeslider section {
+  padding-top: 6% !important;
+}
+.animeslider section div figure {
+  box-shadow: none;
+}
+.animeslider section div:nth-of-type(2) {
+  position: relative;
+}
+.animeslider section div:nth-of-type(2) figure img {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0px 5px 12.09px 0.91px rgba(1, 31, 87, 0.19);
+}
+.animeslider section div:nth-of-type(2) span figure img {
+  background: transparent;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.animeslider .autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+.animeslider .autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
+.live {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: relative;
+  margin-top: 12% !important;
+}
+.live h4 {
+  background-color: #e9a401;
+  color: #ffffff;
+}
+.live div {
+  margin-top: 12% !important;
+}
+.live section h2 {
+  font-size: 600px;
+  font-weight: 900;
+  color: rgba(128, 128, 128, 0.0745098039);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.live section span {
+  font-size: 90px;
+  color: black;
+}
+
+.car .swiper {
+  width: 100%;
+  height: 100%;
+}
+.car .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.car figure {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  transition: 0.3s;
+}
+.car figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.car figure:hover figcaption {
+  opacity: 0;
+}
+.car figcaption {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  transition: 0.3s;
+}
+.car figcaption h3,
+.car figcaption h6 {
+  color: #ffffff;
+}
+.car figcaption span,
+.car figcaption i {
+  color: #e9a401;
+}
+
+.game {
+  margin-top: 15% !important;
+}
+.game h2 span {
+  color: #e9a401;
+}
+
+.sliderFoter {
+  background-image: url("../img/home_four_shop_bg.jpg");
+  padding-top: 7% !important;
+  padding-bottom: 10% !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sliderFoter p {
+  color: #a5a5a5;
+}
+.sliderFoter h2 {
+  color: #ffffff;
+}
+.sliderFoter h2 span {
+  color: #e9a401;
+}
+.sliderFoter .swiper {
+  width: 100%;
+  height: 100%;
+}
+.sliderFoter .swiper-slide {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sliderFoter .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sliderFoter figure {
+  position: relative;
+}
+.sliderFoter figure figcaption {
+  height: 150px !important;
+  padding-bottom: 15% !important;
+  background-color: #28282e;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+.sliderFoter figure figcaption h5 {
+  -webkit-clip-path: polygon(15% 0%, 94% 0%, 79% 100%, 0% 100%);
+          clip-path: polygon(15% 0%, 94% 0%, 79% 100%, 0% 100%);
+  background-color: #e9a401;
+  position: absolute;
+  bottom: 140px;
+  left: 32%;
+  color: black;
+  cursor: pointer;
+}
+.sliderFoter figure figcaption i {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #757575;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e9a401;
+  background-color: #28282e;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.sliderFoter figure figcaption i:hover {
+  background-color: #e9a401;
+  color: #1e1e2a;
+}
+.sliderFoter figure figcaption h6 {
+  color: #e9a401;
+}
+
+.artcle p {
+  color: #a5a5a5;
+}
+.artcle h2 {
+  color: #000000;
+}
+.artcle h2 span {
+  color: #e9a401;
+}
+.artcle section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.artcle section figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.artcle section figure figcaption {
+  margin-top: 5% !important;
+}
+.artcle section figure figcaption i {
+  color: #e9a401;
+}
+.artcle section figure figcaption h4,
+.artcle section figure figcaption h2 {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.artcle section figure figcaption h4:hover,
+.artcle section figure figcaption h2:hover {
+  color: #e9a401;
+}
+.artcle section figure figcaption span:nth-of-type(1) {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.artcle section figure figcaption span:nth-of-type(1):hover {
+  color: #e9a401;
+}
+
+.foter {
+  margin-top: 15% !important;
+  position: relative;
+  background-image: url("../img/s_footer_bg.jpg");
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.foter div {
+  border-radius: 70px;
+  padding: 3% !important;
+  background-color: #1c181e;
+}
+.foter div div {
+  background-color: #262228;
+  border-radius: 0;
+  padding: 0 !important;
+  -webkit-clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+          clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+.foter div div input {
+  border: none;
+  background: transparent;
+  padding: 10px !important;
+  color: #8a8b8c;
+}
+.foter div div i {
+  color: #e9a401;
+}
+.foter div button {
+  border: none;
+  padding: 10px !important;
+  background-color: #e9a401;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-clip-path: polygon(15% 0%, 94% 0%, 79% 100%, 0% 100%);
+          clip-path: polygon(15% 0%, 94% 0%, 79% 100%, 0% 100%);
+}
+.foter div button:hover {
+  color: #e9a401;
+  background-color: #ffffff;
+}
+.foter div h3 {
+  padding: 6px !important;
+  color: #ffffff;
+}
+.foter div h3 span {
+  color: #e9a401;
+}
+.foter section div {
+  padding: 0 !important;
+  border-radius: 0;
+  -webkit-clip-path: none;
+          clip-path: none;
+  background: transparent;
+}
+.foter section div ul {
+  color: #ffffff;
+}
+.foter section div ul:nth-of-type(2) li, .foter section div ul:nth-of-type(3) li {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.foter section div ul:nth-of-type(2) li:hover, .foter section div ul:nth-of-type(3) li:hover {
+  color: #e9a401;
+}
+.foter section div ul:nth-of-type(4) li:nth-of-type(1) i {
+  color: #ffffff;
+}
+.foter section div ul:nth-of-type(4) li:nth-of-type(1) i:nth-of-type(1) {
+  background-color: #3b5998;
+  font-size: 25px !important;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.foter section div ul:nth-of-type(4) li:nth-of-type(1) i:nth-of-type(2) {
+  background-color: #1696e7;
+  font-size: 25px !important;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.foter section div ul:nth-of-type(4) li:nth-of-type(1) i:nth-of-type(3) {
+  background-color: #d71e18;
+  font-size: 25px !important;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.foter section div ul:nth-of-type(4) li:nth-of-type(1) i:nth-of-type(4) {
+  background-color: #1565c0;
+  font-size: 25px !important;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.foter section div ul li {
+  color: #a5a5a5;
+}
+.foter section div ul li input {
+  border: none;
+  background: #333442;
+  padding: 10px !important;
+  color: #8a8b8c;
+}
+.foter section div ul li button {
+  border: none;
+  padding: 10px !important;
+  background-color: #e9a401;
+  cursor: pointer;
+  -webkit-clip-path: none;
+          clip-path: none;
+  color: #1e1e2a;
+}
+.foter section div ul li button:hover {
+  background-color: #e9a401;
+  color: white;
+}
+
+.enDD {
+  background: #131618;
+}/*# sourceMappingURL=index.css.map */
